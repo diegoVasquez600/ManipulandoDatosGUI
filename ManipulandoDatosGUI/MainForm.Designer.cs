@@ -35,13 +35,14 @@
             this.buttonProfesor = new System.Windows.Forms.Button();
             this.buttonEstudiante = new System.Windows.Forms.Button();
             this.buttonEmpleado = new System.Windows.Forms.Button();
-            this.buttonAdminitrativo = new System.Windows.Forms.Button();
+            this.buttonCapacidadVuelo = new System.Windows.Forms.Button();
             this.menuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // mainPanel
             // 
+            this.mainPanel.BackColor = System.Drawing.SystemColors.Window;
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanel.Location = new System.Drawing.Point(211, 0);
             this.mainPanel.Name = "mainPanel";
@@ -56,7 +57,7 @@
             this.menuPanel.Controls.Add(this.buttonProfesor);
             this.menuPanel.Controls.Add(this.buttonEstudiante);
             this.menuPanel.Controls.Add(this.buttonEmpleado);
-            this.menuPanel.Controls.Add(this.buttonAdminitrativo);
+            this.menuPanel.Controls.Add(this.buttonCapacidadVuelo);
             this.menuPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuPanel.Location = new System.Drawing.Point(0, 0);
             this.menuPanel.Name = "menuPanel";
@@ -134,20 +135,21 @@
             this.buttonEmpleado.Text = "Empleado";
             this.buttonEmpleado.UseVisualStyleBackColor = false;
             // 
-            // buttonAdminitrativo
+            // buttonCapacidadVuelo
             // 
-            this.buttonAdminitrativo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.buttonCapacidadVuelo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonAdminitrativo.AutoSize = true;
-            this.buttonAdminitrativo.BackColor = System.Drawing.SystemColors.Window;
-            this.buttonAdminitrativo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAdminitrativo.Location = new System.Drawing.Point(3, 84);
-            this.buttonAdminitrativo.Margin = new System.Windows.Forms.Padding(10);
-            this.buttonAdminitrativo.Name = "buttonAdminitrativo";
-            this.buttonAdminitrativo.Size = new System.Drawing.Size(205, 27);
-            this.buttonAdminitrativo.TabIndex = 0;
-            this.buttonAdminitrativo.Text = "Administrativo";
-            this.buttonAdminitrativo.UseVisualStyleBackColor = false;
+            this.buttonCapacidadVuelo.AutoSize = true;
+            this.buttonCapacidadVuelo.BackColor = System.Drawing.SystemColors.Window;
+            this.buttonCapacidadVuelo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCapacidadVuelo.Location = new System.Drawing.Point(3, 84);
+            this.buttonCapacidadVuelo.Margin = new System.Windows.Forms.Padding(10);
+            this.buttonCapacidadVuelo.Name = "buttonCapacidadVuelo";
+            this.buttonCapacidadVuelo.Size = new System.Drawing.Size(205, 27);
+            this.buttonCapacidadVuelo.TabIndex = 0;
+            this.buttonCapacidadVuelo.Text = "Capacidad Vuelo";
+            this.buttonCapacidadVuelo.UseVisualStyleBackColor = false;
+            this.buttonCapacidadVuelo.Click += new System.EventHandler(this.ButtonCapacidadVuelo_Click);
             // 
             // MainForm
             // 
@@ -174,6 +176,6 @@
         private Button buttonProfesor;
         private Button buttonEstudiante;
         private Button buttonEmpleado;
-        private Button buttonAdminitrativo;
+        private Button buttonCapacidadVuelo;
     }
 }
