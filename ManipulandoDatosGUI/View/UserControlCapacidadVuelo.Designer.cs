@@ -34,6 +34,7 @@
             this.buttonCapacidad = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.labelCapacidad = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.capacidadVuelo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,11 +101,21 @@
             this.labelCapacidad.TabIndex = 6;
             this.labelCapacidad.Text = "0";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(193, 299);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(137, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Ir a Reservas";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // UserControlCapacidadVuelo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.labelCapacidad);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.buttonCapacidad);
@@ -128,5 +139,6 @@
         private Button buttonCapacidad;
         private Label label3;
         private Label labelCapacidad;
+        private Button button1;
     }
 }

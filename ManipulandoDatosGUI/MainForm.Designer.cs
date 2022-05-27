@@ -34,7 +34,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonProfesor = new System.Windows.Forms.Button();
             this.buttonEstudiante = new System.Windows.Forms.Button();
-            this.buttonEmpleado = new System.Windows.Forms.Button();
+            this.buttonReservas = new System.Windows.Forms.Button();
             this.buttonCapacidadVuelo = new System.Windows.Forms.Button();
             this.menuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -56,7 +56,7 @@
             this.menuPanel.Controls.Add(this.pictureBox1);
             this.menuPanel.Controls.Add(this.buttonProfesor);
             this.menuPanel.Controls.Add(this.buttonEstudiante);
-            this.menuPanel.Controls.Add(this.buttonEmpleado);
+            this.menuPanel.Controls.Add(this.buttonReservas);
             this.menuPanel.Controls.Add(this.buttonCapacidadVuelo);
             this.menuPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.menuPanel.Location = new System.Drawing.Point(0, 0);
@@ -120,20 +120,20 @@
             this.buttonEstudiante.Text = "Estudiante";
             this.buttonEstudiante.UseVisualStyleBackColor = false;
             // 
-            // buttonEmpleado
+            // buttonReservas
             // 
-            this.buttonEmpleado.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.buttonReservas.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonEmpleado.AutoSize = true;
-            this.buttonEmpleado.BackColor = System.Drawing.SystemColors.Window;
-            this.buttonEmpleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonEmpleado.Location = new System.Drawing.Point(3, 131);
-            this.buttonEmpleado.Margin = new System.Windows.Forms.Padding(10);
-            this.buttonEmpleado.Name = "buttonEmpleado";
-            this.buttonEmpleado.Size = new System.Drawing.Size(205, 27);
-            this.buttonEmpleado.TabIndex = 1;
-            this.buttonEmpleado.Text = "Empleado";
-            this.buttonEmpleado.UseVisualStyleBackColor = false;
+            this.buttonReservas.AutoSize = true;
+            this.buttonReservas.BackColor = System.Drawing.SystemColors.Window;
+            this.buttonReservas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonReservas.Location = new System.Drawing.Point(3, 131);
+            this.buttonReservas.Margin = new System.Windows.Forms.Padding(10);
+            this.buttonReservas.Name = "buttonReservas";
+            this.buttonReservas.Size = new System.Drawing.Size(205, 27);
+            this.buttonReservas.TabIndex = 1;
+            this.buttonReservas.Text = "Reservas";
+            this.buttonReservas.UseVisualStyleBackColor = false;
             // 
             // buttonCapacidadVuelo
             // 
@@ -175,7 +175,7 @@
         private PictureBox pictureBox1;
         private Button buttonProfesor;
         private Button buttonEstudiante;
-        private Button buttonEmpleado;
+        private Button buttonReservas;
         private Button buttonCapacidadVuelo;
     }
 }
