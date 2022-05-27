@@ -11,9 +11,22 @@ namespace ManipulandoDatosGUI
 
         private void ButtonCapacidadVuelo_Click(object sender, EventArgs e)
         {
-            UserControlCapacidadVuelo vuelo = new();
-            mainPanel.Controls.Add(vuelo);
+           UserControlCapacidadVuelo vuelo = new();
+           CargarUserControl(vuelo);
 
+        }
+
+        private void buttonReservas_Click(object sender, EventArgs e)
+        {
+            UserControlReservas reservas = new();
+            CargarUserControl(reservas);
+        }
+
+
+        private void CargarUserControl(UserControl userControl)
+        {
+            mainPanel.Controls.Clear();
+            mainPanel.Controls.Add(userControl);
         }
     }
 }

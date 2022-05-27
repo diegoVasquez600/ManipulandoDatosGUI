@@ -134,6 +134,7 @@
             this.buttonReservas.TabIndex = 1;
             this.buttonReservas.Text = "Reservas";
             this.buttonReservas.UseVisualStyleBackColor = false;
+            this.buttonReservas.Click += new System.EventHandler(this.buttonReservas_Click);
             // 
             // buttonCapacidadVuelo
             // 
@@ -158,6 +159,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.menuPanel);
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "Gestionar Reservas";
             this.menuPanel.ResumeLayout(false);
