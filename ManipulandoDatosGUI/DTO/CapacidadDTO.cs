@@ -17,9 +17,17 @@ namespace ManipulandoDatosGUI.DTO
 
         public void CargarCapacidadVuelo(int capacidad)
         {
-            for (int i = 0; i < capacidad; i++)
+            try
             {
-                capacidadDAO.CargarCapacidadVuelo();
+                for (int i = 0; i < capacidad; i++)
+                {
+                    capacidadDAO.CargarCapacidadVuelo();
+                }
+                MessageBox.Show($"Capacidad de {capacidad} vuelos se creo correctamente");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
 

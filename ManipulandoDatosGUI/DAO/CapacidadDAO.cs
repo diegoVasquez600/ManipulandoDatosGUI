@@ -34,6 +34,7 @@ namespace ManipulandoDatosGUI.DAO
             catch (Exception ex)
             {
                 Debug.WriteLine(ex.Message);
+                return;
             }
         }
     }
